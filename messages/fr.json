@@ -1,0 +1,45 @@
+{
+  "common": {
+    "language": "Langue"
+  },
+  "homePage": {
+    "sections": {
+      "about": {
+        "name": "Khaled",
+        "greeting": "Salut",
+        "intro": "Salut, je suis",
+        "role": "Développeur Web Full Stack",
+        "description": "Je suis un développeur qui aime créer des solutions simples et utiles. Je privilégie la clarté, la fonctionnalité et un travail de qualité. J'apprends continuellement et je m'améliore constamment."
+      },
+      "projects": {
+        "title": "Projets",
+        "items": {
+          "snapit": {
+            "title": "Snapit",
+            "description": "Raccourcisseur d'URL open source simple et moderne"
+          },
+          "distro": {
+            "title": "Distro",
+            "description": "Outil open source pour créer facilement des scripts de provisioning de serveurs Linux"
+          },
+          "openimg": {
+            "title": "OpenIMG",
+            "description": "Outil open source pour générer instantanément des vignettes de projets et des images Open Graph"
+          }
+        }
+      },
+      "technologies": {
+        "title": "Technologies"
+      }
+    }
+  },
+  "footer": {
+    "builtBy": "Créé par",
+    "sourceCodeAvailable": "Le code source est disponible sur",
+    "github": "Github"
+  },
+  "clipboard": {
+    "success": "Adresse e-mail copiée dans le presse-papiers !",
+    "error": "Échec de la copie dans le presse-papiers. Veuillez réessayer."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "common": {
+    "language": "Language"
+  },
+  "homePage": {
+    "sections": {
+      "about": {
+        "name": "Khaled",
+        "greeting": "Hello there",
+        "intro": "Hi, I'm",
+        "role": "FullStack Web Developer",
+        "description": "I'm a developer who enjoys building simple, useful things. I care about clarity, function, and doing good work. Always learning, always refining."
+      },
+      "projects": {
+        "title": "Projects",
+        "items": {
+          "snapit": {
+            "title": "Snapit",
+            "description": "Simple and modern open source URL shortener"
+          },
+          "distro": {
+            "title": "Distro",
+            "description": "Open-source tool for easily scaffolding Linux server provisioning scripts"
+          },
+          "openimg": {
+            "title": "OpenIMG",
+            "description": "Open-source tool for instantly generating project thumbnails and Open Graph images"
+          }
+        }
+      },
+      "technologies": {
+        "title": "Technologies"
+      }
+    }
+  },
+  "footer": {
+    "builtBy": "Built by",
+    "sourceCodeAvailable": "The source code is available on",
+    "github": "Github"
+  },
+  "clipboard": {
+    "success": "Email address copied to clipboard!",
+    "error": "Failed to copy to clipboard. Please try again."
+  }
+}
