@@ -5,9 +5,9 @@ export const projects = [
     href: "https://github.com/khaledxyz/snapit",
   },
   {
-    id: "distro",
-    tags: ["React"],
-    href: "https://github.com/khaledxyz/distro",
+    id: "serverkit",
+    tags: ["React", "Alpha"],
+    href: "https://github.com/khaledxyz/serverkit",
   },
   {
     id: "openimg",

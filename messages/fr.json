@@ -18,8 +18,8 @@
             "title": "Snapit",
             "description": "Raccourcisseur d'URL open source simple et moderne"
           },
-          "distro": {
-            "title": "Distro",
+          "serverkit": {
+            "title": "ServerKit",
             "description": "Outil open source pour créer facilement des scripts de provisioning de serveurs Linux"
           },
           "openimg": {

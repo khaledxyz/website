@@ -18,8 +18,8 @@
             "title": "Snapit",
             "description": "Simple and modern open source URL shortener"
           },
-          "distro": {
-            "title": "Distro",
+          "serverkit": {
+            "title": "ServerKit",
             "description": "Open-source tool for easily scaffolding Linux server provisioning scripts"
           },
           "openimg": {

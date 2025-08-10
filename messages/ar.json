@@ -18,8 +18,8 @@
             "title": "Snapit",
             "description": "أداة مفتوحة المصدر لاختصار الروابط بتصميم بسيط وعصري"
           },
-          "distro": {
-            "title": "Distro",
+          "serverkit": {
+            "title": "ServerKit",
             "description": "أداة مفتوحة المصدر لإنشاء سكريبت تهيئة خوادم لينكس بسهولة"
           },
           "openimg": {
