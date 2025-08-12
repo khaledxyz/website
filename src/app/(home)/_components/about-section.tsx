@@ -45,6 +45,7 @@ export function AboutSection() {
                 href={socials.github.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                area-label="Github"
               >
                 <GithubIcon />
               </Link>
@@ -56,6 +57,7 @@ export function AboutSection() {
                 href={socials.linkedin.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                area-label="LinkedIn"
               >
                 <LinkedinIcon />
               </Link>
@@ -63,8 +65,10 @@ export function AboutSection() {
                 size="icon"
                 variant="outline"
                 onClick={() => copy(socials.email.href)}
+                title="me@khaledxyz.com"
               >
                 <MailIcon />
+                <span className="sr-only">Copy Email Address</span>
               </Button>
             </div>
           </div>

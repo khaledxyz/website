@@ -1,6 +1,8 @@
 {
   "common": {
-    "language": "Langue"
+    "language": "Langue",
+    "changeLanguageTooltip": "Choisir la langue",
+    "toggleThemeTooltip": "Changer de thème"
   },
   "homePage": {
     "sections": {

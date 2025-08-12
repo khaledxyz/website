@@ -1,6 +1,8 @@
 {
   "common": {
-    "language": "اللغة"
+    "language": "اللغة",
+    "changeLanguageTooltip": "اختر اللغة",
+    "toggleThemeTooltip": "تبديل النمط"
   },
   "homePage": {
     "sections": {

@@ -19,8 +19,13 @@ export function LanguageSelector() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button size="icon" variant="outline">
+        <Button
+          size="icon"
+          variant="outline"
+          title={t("common.changeLanguageTooltip")}
+        >
           <LanguagesIcon />
+          <span className="sr-only">{t("common.changeLanguageTooltip")}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">

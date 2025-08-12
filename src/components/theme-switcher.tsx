@@ -1,10 +1,12 @@
 "use client";
 import { MoonIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import { useCallback } from "react";
 import { Button } from "./ui/button";
 
 export function ThemeSwitcher() {
+  const t = useTranslations("common");
   const { setTheme, resolvedTheme } = useTheme();
 
   const toggleTheme = useCallback(() => {
@@ -14,7 +16,7 @@ export function ThemeSwitcher() {
   return (
     <Button
       onClick={toggleTheme}
-      title="Toggle Theme"
+      title={t("toggleThemeTooltip")}
       variant="outline"
       size="icon"
     >
