@@ -13,10 +13,13 @@ import Link from "next/link";
 
 export function ProjectsSection() {
   const t = useTranslations("homePage.sections.projects");
+
   return (
     <section>
       <MaxWidth>
-        <h2 className="font-serif text-4xl mb-5">{t("title")}</h2>
+        <h2 className="font-serif text-4xl mb-5 fade-in motion-delay-[250ms]">
+          {t("title")}
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projects.map((project, index) => (
@@ -25,7 +28,11 @@ export function ProjectsSection() {
               href={project.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-full"
+              className="h-full fade-in"
+              style={{
+                animationDelay: `${300 + index * 50}ms`,
+                animationFillMode: "backwards",
+              }}
             >
               <Card className="py-4 h-full flex flex-col">
                 <CardHeader className="px-4 flex-grow">

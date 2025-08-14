@@ -16,7 +16,7 @@ export function AboutSection() {
     <section>
       <MaxWidth className="flex items-center justify-between">
         <div>
-          <div className="mb-5">
+          <div className="mb-5 fade-in">
             <Badge variant="outline" className="mb-4">
               👋 {t("greeting")}
             </Badge>
@@ -32,11 +32,11 @@ export function AboutSection() {
           </div>
 
           <div className="space-y-3">
-            <p className="text-lg lg:text-xl leading-relaxed text-foreground/80 font-light max-w-xl">
+            <p className="text-lg lg:text-xl leading-relaxed text-foreground/80 font-light max-w-xl fade-in motion-delay-[100ms]">
               {t("description")}
             </p>
 
-            <div className="flex flex-wrap gap-1 ">
+            <div className="flex flex-wrap gap-1 fade-in motion-delay-[200ms]">
               <Link
                 className={buttonVariants({
                   variant: "outline",

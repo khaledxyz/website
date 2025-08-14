@@ -8,7 +8,9 @@ export function TechnologiesSection() {
   return (
     <section>
       <MaxWidth>
-        <h2 className="font-serif text-4xl mb-5">{t("title")}</h2>
+        <h2 className="font-serif text-4xl mb-5 fade-in motion-delay-[400ms]">
+          {t("title")}
+        </h2>
 
         <div className="flex flex-wrap gap-1">
           {technologies.map((tech) => (
