@@ -3,13 +3,20 @@ import { Navigation } from "@/components/navigation";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { fonts } from "@/config/fonts.config";
+import { siteConfig } from "@/config/site.config";
 import { cn } from "@/lib/utils";
 import "devicon/devicon.min.css";
+import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import Script from "next/script";
 import "./globals.css";
-export { metadata } from "@/config/metadata.config";
+
+export const metadata: Metadata = {
+  title: `${siteConfig.title} | ${siteConfig.role}`,
+  description: siteConfig.description,
+  authors: [{ name: "khaledxyz", url: "https://khaledxyz.com" }],
+};
 
 export default async function RootLayout({
   children,
